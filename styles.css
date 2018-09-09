@@ -109,18 +109,11 @@ label {
 }
 
 button {
+  font-size: calc(16px + 1vw);
   background-color: #941717;
   margin-bottom: 0.25%;
   margin-top: 0.25%;
   outline: none;
-}
-
-#edit {
-  border-color: #941717;
-  margin-left: 0.8%;
-}
-
-#delete {
   border-color: #941717;
   margin-left: 0.8%;
 }
