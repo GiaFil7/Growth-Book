@@ -108,16 +108,13 @@ label {
   flex-wrap: wrap;
 }
 
-button {
+.btn {
   background-color: #941717;
   margin-bottom: 0.25%;
   margin-top: 0.25%;
   outline: none;
   border-color: #941717;
   margin-left: 0.8%;
-}
-
-.btn {
   font-size: calc(10px + 0.5vw);
 }
 
