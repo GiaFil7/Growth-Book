@@ -22,8 +22,8 @@ h1 {
 h3 {
   font-size: calc(15px + 2vh);
   margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 1%;
+  margin-bottom: 0.5vw;
+  margin-left: 0.5vw;
 }
 
 label {
@@ -34,15 +34,27 @@ label {
   align-self: center;
 }
 
-#schedule {
-  position: absolute;
-  top: 5vh;
+.box{
   display: flex;
   flex-direction: column;
   border: solid black 2px;
+}
+
+#scheduleBox {
+  position: absolute;
+  top: 5vh;
   margin-right: -1.25vw;
   height: 57vh;
   width: 100vw;
+}
+
+#goalsBox {
+  margin-right: -2px;
+  width: 50vw;
+}
+
+#todoBox {
+  width: 50vw;
 }
 
 #events {
@@ -63,51 +75,33 @@ label {
   margin-left: 0%;
 }
 
-#scheduleBar {
+.bar{
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 10%;
+}
+
+#scheduleBar {
+  height: 5.7vh;
   margin: 0.1vh;
 }
 
 #goalsBar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-right: -2px;
   height: 10%;
   margin: 1vh;
 }
 
-#goalsBox {
-  display: flex;
-  flex-direction: column;
-  border: solid black 2px;
-  margin-right: -2px;
-  width: 50vw;
+#todoBar {
+  margin-left: 0%;
+  height: 10%;
+  margin: 1vh;
 }
 
 #goals {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-#todoBar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 0%;
-  height: 10%;
-  margin: 1vh;
-}
-
-#todoBox {
-  display: flex;
-  flex-direction: column;
-  border: solid black 2px;
-  width: 50vw;
 }
 
 #todo {
