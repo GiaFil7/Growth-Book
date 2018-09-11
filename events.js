@@ -1,7 +1,7 @@
 function setupDiv (item, itemCount, inputType) {
   let itemDiv = document.createElement('div')
   itemDiv.setAttribute('id', item + '-' + itemCount)
-  itemDiv.setAttribute('class', 'addedElements')
+  itemDiv.setAttribute('class', 'addedElements btn-group')
   let itemToAdd = document.getElementById(inputType).value
   return { itemDiv, itemToAdd }
 }
