@@ -166,5 +166,4 @@ input[type="checkbox"]:checked:after {
   font-size: calc(10px + 0.5vw);
   height: auto;
   margin: 0.5vh;
-  width: auto;
 }
