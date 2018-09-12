@@ -1,5 +1,6 @@
 function editItem (parentItem, editButton) {
   let deleteButton = parentItem.childNodes[3]
+  deleteButton.classList.add('extraMargin')
   parentItem.removeChild(editButton)
   let itemLabel = parentItem.childNodes[1]
   let editInput = document.createElement('input')
@@ -10,6 +11,7 @@ function editItem (parentItem, editButton) {
   itemLabel.innerHTML = ''
   document.getElementById('editText').addEventListener('keypress', function (event) {
     if (event.key === 'Enter') {
+      deleteButton.classList.remove('extraMargin')
       itemLabel.innerHTML = editInput.value
       parentItem.removeChild(editInput)
       parentItem.insertBefore(editButton, deleteButton)

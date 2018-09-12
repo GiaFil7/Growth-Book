@@ -6,7 +6,6 @@ body {
   background-color: rgb(221, 221, 103);
   font-family: "Kalam", cursive;
   height: 100vh;
-  width: auto;
 }
 
 h1 {
@@ -19,7 +18,7 @@ h1 {
 }
 
 h3 {
-  font-size: calc(15px + 2vh);
+  font-size: calc(12px + 2vh);
   margin-top: 2vh;
   margin-bottom: 0.5vw;
   margin-left: 0.5vw;
@@ -28,9 +27,9 @@ h3 {
 label {
   font-size: calc(7px + 1.5vh);
   cursor: default;
-  margin-left: 1vw;
   display: flex;
   align-self: center;
+  margin-left: 1vw;
   margin-bottom: 0vw;
 }
 
@@ -43,7 +42,6 @@ label {
 #scheduleBox {
   position: absolute;
   top: 5vh;
-  margin-right: -1.25vw;
   height: 57vh;
   width: 100vw;
 }
@@ -65,8 +63,6 @@ label {
   height: 38vh;
   width: 100vw;
   margin-top: -2px;
-  margin-right: -1.4vw;
-  margin-left: 0vw;
 }
 
 .bar {
@@ -114,6 +110,11 @@ label {
   background-color: #a31b1b;
 }
 
+.extraMargin {
+  margin-left: -1vw;
+  margin-right: 1vw;
+}
+
 #edit {
   border-right: 1px solid black;
 }
@@ -129,6 +130,7 @@ input[type="text"] {
   border-radius: 1em;
   outline: none;
   height: calc(1.5em + 0.5vh);
+  width: calc(10px + 12vw);
   margin-left: 0.5vw;
   margin-right: 0.5vw;
 }
