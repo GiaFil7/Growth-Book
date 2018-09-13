@@ -44,7 +44,6 @@ label {
   display: flex;
   flex-direction: column;
   border: solid black 2px;
-  
 }
 
 #scheduleBox {
@@ -55,17 +54,16 @@ label {
 }
 
 #goalsBox {
-  margin-right: -2px;
   width: 50vw;
 }
 
 #todoBox {
+  margin-left: -2px;
   width: 50vw;
 }
 
 #bottom {
   position: relative;
-  /*top: 62vh;*/
   top: 0vh;
   display: flex;
   flex-direction: row;
@@ -177,4 +175,17 @@ input[type="checkbox"]:checked:after {
   font-size: calc(10px + 0.5vw);
   height: auto;
   margin: 0.5vh;
+}
+
+::-webkit-input-placeholder { 
+  color: rgba(0, 0, 0, 0.5);
+}
+::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+:-moz-placeholder {
+  color: rgba(0, 0, 0, 0.5);
 }
