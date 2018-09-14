@@ -34,10 +34,12 @@ h3 {
 label {
   font-size: calc(7px + 1.5vh);
   cursor: default;
-  display: flex;
-  align-self: center;
   margin-left: 1vw;
   margin-bottom: 0vw;
+  max-width: 35vw;
+  display: block;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .box {
@@ -102,7 +104,7 @@ label {
 }
 
 .btn {
-  font-size: calc(10px + 0.5vw);
+  font-size: calc(5px + 0.8vw);
   background-color: #941717;
   border-color: #941717;
   position: relative;
